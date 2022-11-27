@@ -23,6 +23,7 @@
   dragElement(document.getElementById("vold"));
   dragElement(document.getElementById("tip1"));
   dragElement(document.getElementById("tip2"));
+  dragElement(document.getElementById("tip3"));
   function dragElement(elmnt) {
     elem = document.getElementById("volume");
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
