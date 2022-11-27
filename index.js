@@ -70,7 +70,6 @@ let sv = https.createServer({
     js:  {'Content-Type': 'text/javascript'}
   };
   let files = {
-    'favicon.svg': fs.readFileSync('src/min/favicon.svg'), // ?
     'index.html':  fs.readFileSync('src/index.html'),
     'main.css':    fs.readFileSync('src/min/main.css'),
     'index.js':    fs.readFileSync('src/index.js'),
@@ -116,11 +115,9 @@ let nsv = http.createServer((req,res)=>{
     css: {'Content-Type': 'text/css'},
     ico: {'Content-Type': 'image/x-icon'},
     png: {'Content-Type': 'image/png'},
-    svg: {'Content-Type': 'image/svg+xml'},
     js:  {'Content-Type': 'text/javascript'}
   };
   let files = {
-    'favicon.svg': fs.readFileSync('src/min/favicon.svg'), // ?
     'index.html':  fs.readFileSync('src/index.html'),
     'main.css':    fs.readFileSync('src/min/main.css'),
     'index.js':    fs.readFileSync('src/index.js'),
