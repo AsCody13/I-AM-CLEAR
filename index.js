@@ -71,9 +71,9 @@ let sv = https.createServer({
   };
   let files = {
     'favicon.svg': fs.readFileSync('src/min/favicon.svg'), // ?
-    'index.html':  fs.readFileSync('src/min/index.html'),
+    'index.html':  fs.readFileSync('src/index.html'),
     'main.css':    fs.readFileSync('src/min/main.css'),
-    'index.js':    fs.readFileSync('src/min/index.js'),
+    'index.js':    fs.readFileSync('src/index.js'),
     'favicon.ico': fs.readFileSync('src/favicon.ico'),
     'favicon.png': fs.readFileSync('src/favicon.png'),
     'flv.js':      fs.readFileSync('src/min/flv.js')
@@ -121,9 +121,9 @@ let nsv = http.createServer((req,res)=>{
   };
   let files = {
     'favicon.svg': fs.readFileSync('src/min/favicon.svg'), // ?
-    'index.html':  fs.readFileSync('src/min/index.html'),
+    'index.html':  fs.readFileSync('src/index.html'),
     'main.css':    fs.readFileSync('src/min/main.css'),
-    'index.js':    fs.readFileSync('src/min/index.js'),
+    'index.js':    fs.readFileSync('src/index.js'),
     'favicon.ico': fs.readFileSync('src/favicon.ico'),
     'favicon.png': fs.readFileSync('src/favicon.png'),
     'flv.js':      fs.readFileSync('src/min/flv.js')
