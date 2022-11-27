@@ -1,0 +1,26 @@
+<html>
+  <head>
+  <script src="/flv.min.js"></script>
+  <script src="/index.js"></script>
+  <link rel="stylesheet" href="/index.css">
+  <title>loading..</title>
+  </head>
+  <body>
+    <!--<a href="javascript:play()" id="play">Click to see screen share</a>-->
+    <div>
+      <video id="vidElem"></video>
+    </div>
+    <div id="tip1" style="top: 32%; left: 32%; width: 288px; height: 105px;">
+      <br />Click button for watch live stream!<br />
+      <br /><button onclick="play();document.getElementById('tip1').remove()">Watch</button>
+    </div>
+    <div id="tip2" style="top: 40%; left: 40%; width: 288px; height: 105px;">
+      <br />Try dragging [100%] object!<br />
+      <br /><button onclick="document.getElementById('tip2').remove()">Okay!</button>
+    </div>
+    <div style="background-color: rgba(66, 135, 245,0.4); width: 48px; height: 24px; position: absolute; top: 0px; left: 0px;" id="vold">
+      <span id="volText">100%</span>
+    </div>
+    <input type="range" id="volume" name="Volume" min="0" max="1" step="0.02" value="1" style="position: absolute;"/>
+  </body>
+</html>
